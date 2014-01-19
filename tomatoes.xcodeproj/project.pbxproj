@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8AADA60188C60F60040EE41 /* image-not-available.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8AADA5F188C60F60040EE41 /* image-not-available.jpg */; };
+		A8F6AFFB188A1E4000B4F3E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFA188A1E4000B4F3E8 /* Foundation.framework */; };
+		A8F6AFFD188A1E4000B4F3E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFC188A1E4000B4F3E8 /* CoreGraphics.framework */; };
+		A8F6AFFF188A1E4000B4F3E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFE188A1E4000B4F3E8 /* UIKit.framework */; };
+		A8F6B005188A1E4000B4F3E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B003188A1E4000B4F3E8 /* InfoPlist.strings */; };
+		A8F6B007188A1E4000B4F3E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B006188A1E4000B4F3E8 /* main.m */; };
+		A8F6B00B188A1E4000B4F3E8 /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B00A188A1E4000B4F3E8 /* SFAppDelegate.m */; };
+		A8F6B00E188A1E4000B4F3E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B00C188A1E4000B4F3E8 /* Main.storyboard */; };
+		A8F6B013188A1E4000B4F3E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B012188A1E4000B4F3E8 /* Images.xcassets */; };
+		A8F6B01A188A1E4000B4F3E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6B019188A1E4000B4F3E8 /* XCTest.framework */; };
+		A8F6B01B188A1E4000B4F3E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFA188A1E4000B4F3E8 /* Foundation.framework */; };
+		A8F6B01C188A1E4000B4F3E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFE188A1E4000B4F3E8 /* UIKit.framework */; };
+		A8F6B024188A1E4000B4F3E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B022188A1E4000B4F3E8 /* InfoPlist.strings */; };
+		A8F6B026188A1E4000B4F3E8 /* tomatoesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B025188A1E4000B4F3E8 /* tomatoesTests.m */; };
+		A8F6B031188A204000B4F3E8 /* SFMoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B030188A204000B4F3E8 /* SFMoviesViewController.m */; };
+		A8F6B034188A2F9100B4F3E8 /* SFMovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B033188A2F9100B4F3E8 /* SFMovieCell.m */; };
+		A8F6B037188A32DA00B4F3E8 /* SFMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B036188A32DA00B4F3E8 /* SFMovie.m */; };
+		A8F6B039188B2EE500B4F3E8 /* SFModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B038188B2EE500B4F3E8 /* SFModelTest.m */; };
+		A8F6B03C188B46A200B4F3E8 /* SFMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B03B188B46A200B4F3E8 /* SFMovieDetailViewController.m */; };
+		A8F6B03F188B58E500B4F3E8 /* thumbs up_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B03D188B58E500B4F3E8 /* thumbs up_icon.png */; };
+		A8F6B040188B58E500B4F3E8 /* thumbs down_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B03E188B58E500B4F3E8 /* thumbs down_icon.png */; };
+		AD44FF9A3A634B1E8D9FAF2B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0789E40FA04788A366555D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8F6B01D188A1E4000B4F3E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8F6AFEF188A1E3F00B4F3E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8F6AFF6188A1E3F00B4F3E8;
+			remoteInfo = tomatoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F0789E40FA04788A366555D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F75EFB4682446C989EBD454 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A8AADA5F188C60F60040EE41 /* image-not-available.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-not-available.jpg"; sourceTree = "<group>"; };
+		A8F6AFF7188A1E4000B4F3E8 /* tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F6AFFA188A1E4000B4F3E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A8F6AFFC188A1E4000B4F3E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A8F6AFFE188A1E4000B4F3E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A8F6B002188A1E4000B4F3E8 /* tomatoes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tomatoes-Info.plist"; sourceTree = "<group>"; };
+		A8F6B004188A1E4000B4F3E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8F6B006188A1E4000B4F3E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8F6B008188A1E4000B4F3E8 /* tomatoes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tomatoes-Prefix.pch"; sourceTree = "<group>"; };
+		A8F6B009188A1E4000B4F3E8 /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		A8F6B00A188A1E4000B4F3E8 /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		A8F6B00D188A1E4000B4F3E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8F6B012188A1E4000B4F3E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A8F6B018188A1E4000B4F3E8 /* tomatoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomatoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8F6B019188A1E4000B4F3E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A8F6B021188A1E4000B4F3E8 /* tomatoesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tomatoesTests-Info.plist"; sourceTree = "<group>"; };
+		A8F6B023188A1E4000B4F3E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A8F6B025188A1E4000B4F3E8 /* tomatoesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tomatoesTests.m; sourceTree = "<group>"; };
+		A8F6B02F188A204000B4F3E8 /* SFMoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMoviesViewController.h; sourceTree = "<group>"; };
+		A8F6B030188A204000B4F3E8 /* SFMoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMoviesViewController.m; sourceTree = "<group>"; };
+		A8F6B032188A2F9100B4F3E8 /* SFMovieCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMovieCell.h; sourceTree = "<group>"; };
+		A8F6B033188A2F9100B4F3E8 /* SFMovieCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMovieCell.m; sourceTree = "<group>"; };
+		A8F6B035188A32DA00B4F3E8 /* SFMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFMovie.h; sourceTree = "<group>"; };
+		A8F6B036188A32DA00B4F3E8 /* SFMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFMovie.m; sourceTree = "<group>"; };
+		A8F6B038188B2EE500B4F3E8 /* SFModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFModelTest.m; path = ../SFModelTest.m; sourceTree = "<group>"; };
+		A8F6B03A188B46A200B4F3E8 /* SFMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFMovieDetailViewController.h; path = ../SFMovieDetailViewController.h; sourceTree = "<group>"; };
+		A8F6B03B188B46A200B4F3E8 /* SFMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFMovieDetailViewController.m; path = ../SFMovieDetailViewController.m; sourceTree = "<group>"; };
+		A8F6B03D188B58E500B4F3E8 /* thumbs up_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbs up_icon.png"; path = "../thumbs up_icon.png"; sourceTree = "<group>"; };
+		A8F6B03E188B58E500B4F3E8 /* thumbs down_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbs down_icon.png"; path = "../thumbs down_icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8F6AFF4188A1E3F00B4F3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F6AFFD188A1E4000B4F3E8 /* CoreGraphics.framework in Frameworks */,
+				A8F6AFFF188A1E4000B4F3E8 /* UIKit.framework in Frameworks */,
+				A8F6AFFB188A1E4000B4F3E8 /* Foundation.framework in Frameworks */,
+				AD44FF9A3A634B1E8D9FAF2B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F6B015188A1E4000B4F3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F6B01A188A1E4000B4F3E8 /* XCTest.framework in Frameworks */,
+				A8F6B01C188A1E4000B4F3E8 /* UIKit.framework in Frameworks */,
+				A8F6B01B188A1E4000B4F3E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8F6AFEE188A1E3F00B4F3E8 = {
+			isa = PBXGroup;
+			children = (
+				A8F6B000188A1E4000B4F3E8 /* tomatoes */,
+				A8F6B01F188A1E4000B4F3E8 /* tomatoesTests */,
+				A8F6AFF9188A1E4000B4F3E8 /* Frameworks */,
+				A8F6AFF8188A1E4000B4F3E8 /* Products */,
+				9F75EFB4682446C989EBD454 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A8F6AFF8188A1E4000B4F3E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8F6AFF7188A1E4000B4F3E8 /* tomatoes.app */,
+				A8F6B018188A1E4000B4F3E8 /* tomatoesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8F6AFF9188A1E4000B4F3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F6AFFA188A1E4000B4F3E8 /* Foundation.framework */,
+				A8F6AFFC188A1E4000B4F3E8 /* CoreGraphics.framework */,
+				A8F6AFFE188A1E4000B4F3E8 /* UIKit.framework */,
+				A8F6B019188A1E4000B4F3E8 /* XCTest.framework */,
+				7F0789E40FA04788A366555D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8F6B000188A1E4000B4F3E8 /* tomatoes */ = {
+			isa = PBXGroup;
+			children = (
+				A8AADA5F188C60F60040EE41 /* image-not-available.jpg */,
+				A8F6B03D188B58E500B4F3E8 /* thumbs up_icon.png */,
+				A8F6B03E188B58E500B4F3E8 /* thumbs down_icon.png */,
+				A8F6B03A188B46A200B4F3E8 /* SFMovieDetailViewController.h */,
+				A8F6B03B188B46A200B4F3E8 /* SFMovieDetailViewController.m */,
+				A8F6B038188B2EE500B4F3E8 /* SFModelTest.m */,
+				A8F6B009188A1E4000B4F3E8 /* SFAppDelegate.h */,
+				A8F6B00A188A1E4000B4F3E8 /* SFAppDelegate.m */,
+				A8F6B00C188A1E4000B4F3E8 /* Main.storyboard */,
+				A8F6B012188A1E4000B4F3E8 /* Images.xcassets */,
+				A8F6B001188A1E4000B4F3E8 /* Supporting Files */,
+				A8F6B02F188A204000B4F3E8 /* SFMoviesViewController.h */,
+				A8F6B030188A204000B4F3E8 /* SFMoviesViewController.m */,
+				A8F6B032188A2F9100B4F3E8 /* SFMovieCell.h */,
+				A8F6B033188A2F9100B4F3E8 /* SFMovieCell.m */,
+				A8F6B035188A32DA00B4F3E8 /* SFMovie.h */,
+				A8F6B036188A32DA00B4F3E8 /* SFMovie.m */,
+			);
+			path = tomatoes;
+			sourceTree = "<group>";
+		};
+		A8F6B001188A1E4000B4F3E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F6B002188A1E4000B4F3E8 /* tomatoes-Info.plist */,
+				A8F6B003188A1E4000B4F3E8 /* InfoPlist.strings */,
+				A8F6B006188A1E4000B4F3E8 /* main.m */,
+				A8F6B008188A1E4000B4F3E8 /* tomatoes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8F6B01F188A1E4000B4F3E8 /* tomatoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8F6B025188A1E4000B4F3E8 /* tomatoesTests.m */,
+				A8F6B020188A1E4000B4F3E8 /* Supporting Files */,
+			);
+			path = tomatoesTests;
+			sourceTree = "<group>";
+		};
+		A8F6B020188A1E4000B4F3E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F6B021188A1E4000B4F3E8 /* tomatoesTests-Info.plist */,
+				A8F6B022188A1E4000B4F3E8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8F6AFF6188A1E3F00B4F3E8 /* tomatoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F6B029188A1E4000B4F3E8 /* Build configuration list for PBXNativeTarget "tomatoes" */;
+			buildPhases = (
+				36BA6837193048DE973BF9AB /* Check Pods Manifest.lock */,
+				A8F6AFF3188A1E3F00B4F3E8 /* Sources */,
+				A8F6AFF4188A1E3F00B4F3E8 /* Frameworks */,
+				A8F6AFF5188A1E3F00B4F3E8 /* Resources */,
+				DA916F84C1634AABBEA2F8C0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tomatoes;
+			productName = tomatoes;
+			productReference = A8F6AFF7188A1E4000B4F3E8 /* tomatoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8F6B017188A1E4000B4F3E8 /* tomatoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8F6B02C188A1E4000B4F3E8 /* Build configuration list for PBXNativeTarget "tomatoesTests" */;
+			buildPhases = (
+				A8F6B014188A1E4000B4F3E8 /* Sources */,
+				A8F6B015188A1E4000B4F3E8 /* Frameworks */,
+				A8F6B016188A1E4000B4F3E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8F6B01E188A1E4000B4F3E8 /* PBXTargetDependency */,
+			);
+			name = tomatoesTests;
+			productName = tomatoesTests;
+			productReference = A8F6B018188A1E4000B4F3E8 /* tomatoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8F6AFEF188A1E3F00B4F3E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = 8indaas;
+				TargetAttributes = {
+					A8F6B017188A1E4000B4F3E8 = {
+						TestTargetID = A8F6AFF6188A1E3F00B4F3E8;
+					};
+				};
+			};
+			buildConfigurationList = A8F6AFF2188A1E3F00B4F3E8 /* Build configuration list for PBXProject "tomatoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8F6AFEE188A1E3F00B4F3E8;
+			productRefGroup = A8F6AFF8188A1E4000B4F3E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8F6AFF6188A1E3F00B4F3E8 /* tomatoes */,
+				A8F6B017188A1E4000B4F3E8 /* tomatoesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8F6AFF5188A1E3F00B4F3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F6B013188A1E4000B4F3E8 /* Images.xcassets in Resources */,
+				A8AADA60188C60F60040EE41 /* image-not-available.jpg in Resources */,
+				A8F6B03F188B58E500B4F3E8 /* thumbs up_icon.png in Resources */,
+				A8F6B005188A1E4000B4F3E8 /* InfoPlist.strings in Resources */,
+				A8F6B00E188A1E4000B4F3E8 /* Main.storyboard in Resources */,
+				A8F6B040188B58E500B4F3E8 /* thumbs down_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F6B016188A1E4000B4F3E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F6B024188A1E4000B4F3E8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BA6837193048DE973BF9AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA916F84C1634AABBEA2F8C0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8F6AFF3188A1E3F00B4F3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F6B007188A1E4000B4F3E8 /* main.m in Sources */,
+				A8F6B03C188B46A200B4F3E8 /* SFMovieDetailViewController.m in Sources */,
+				A8F6B034188A2F9100B4F3E8 /* SFMovieCell.m in Sources */,
+				A8F6B031188A204000B4F3E8 /* SFMoviesViewController.m in Sources */,
+				A8F6B00B188A1E4000B4F3E8 /* SFAppDelegate.m in Sources */,
+				A8F6B037188A32DA00B4F3E8 /* SFMovie.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F6B014188A1E4000B4F3E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F6B039188B2EE500B4F3E8 /* SFModelTest.m in Sources */,
+				A8F6B026188A1E4000B4F3E8 /* tomatoesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8F6B01E188A1E4000B4F3E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8F6AFF6188A1E3F00B4F3E8 /* tomatoes */;
+			targetProxy = A8F6B01D188A1E4000B4F3E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8F6B003188A1E4000B4F3E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F6B004188A1E4000B4F3E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A8F6B00C188A1E4000B4F3E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F6B00D188A1E4000B4F3E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8F6B022188A1E4000B4F3E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8F6B023188A1E4000B4F3E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8F6B027188A1E4000B4F3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8F6B028188A1E4000B4F3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8F6B02A188A1E4000B4F3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F75EFB4682446C989EBD454 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tomatoes/tomatoes-Prefix.pch";
+				INFOPLIST_FILE = "tomatoes/tomatoes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A8F6B02B188A1E4000B4F3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F75EFB4682446C989EBD454 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tomatoes/tomatoes-Prefix.pch";
+				INFOPLIST_FILE = "tomatoes/tomatoes-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A8F6B02D188A1E4000B4F3E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tomatoes.app/tomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tomatoes/tomatoes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "tomatoesTests/tomatoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A8F6B02E188A1E4000B4F3E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tomatoes.app/tomatoes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tomatoes/tomatoes-Prefix.pch";
+				INFOPLIST_FILE = "tomatoesTests/tomatoesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8F6AFF2188A1E3F00B4F3E8 /* Build configuration list for PBXProject "tomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F6B027188A1E4000B4F3E8 /* Debug */,
+				A8F6B028188A1E4000B4F3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F6B029188A1E4000B4F3E8 /* Build configuration list for PBXNativeTarget "tomatoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F6B02A188A1E4000B4F3E8 /* Debug */,
+				A8F6B02B188A1E4000B4F3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8F6B02C188A1E4000B4F3E8 /* Build configuration list for PBXNativeTarget "tomatoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F6B02D188A1E4000B4F3E8 /* Debug */,
+				A8F6B02E188A1E4000B4F3E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8F6AFEF188A1E3F00B4F3E8 /* Project object */;
+}

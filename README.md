@@ -28,11 +28,11 @@ The app checks for internet connection and gives the user a friendly message if 
 * App icons from [iconfinder](https://www.iconfinder.com/icons/48742/calculator_icon#size=128)
 
 ##Concepts Learned
-StoryBoard
-UIViewController and viewDidLoad
-Asynchronous networking to load large images
-prepareForSegue
-Show error on network error using SVProgressHUD
+* StoryBoard
+* UIViewController and viewDidLoad
+* Asynchronous networking to load large images
+* prepareForSegue
+* Show error on network error using SVProgressHUD
 
 ## Possible Improvements
 * Pull user comments from the API

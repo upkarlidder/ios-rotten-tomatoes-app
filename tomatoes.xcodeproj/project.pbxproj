@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8AA104B188F31D200A7969E /* thumbs_down_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AA1049188F31D200A7969E /* thumbs_down_icon.png */; };
+		A8AA104C188F31D200A7969E /* thumbs_up_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AA104A188F31D200A7969E /* thumbs_up_icon.png */; };
 		A8AADA60188C60F60040EE41 /* image-not-available.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8AADA5F188C60F60040EE41 /* image-not-available.jpg */; };
 		A8AADA63188C811B0040EE41 /* SFMovieDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AADA62188C811B0040EE41 /* SFMovieDetailCell.m */; };
 		A8F6AFFB188A1E4000B4F3E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFA188A1E4000B4F3E8 /* Foundation.framework */; };
@@ -27,8 +29,6 @@
 		A8F6B037188A32DA00B4F3E8 /* SFMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B036188A32DA00B4F3E8 /* SFMovie.m */; };
 		A8F6B039188B2EE500B4F3E8 /* SFModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B038188B2EE500B4F3E8 /* SFModelTest.m */; };
 		A8F6B03C188B46A200B4F3E8 /* SFMovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F6B03B188B46A200B4F3E8 /* SFMovieDetailViewController.m */; };
-		A8F6B03F188B58E500B4F3E8 /* thumbs up_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B03D188B58E500B4F3E8 /* thumbs up_icon.png */; };
-		A8F6B040188B58E500B4F3E8 /* thumbs down_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A8F6B03E188B58E500B4F3E8 /* thumbs down_icon.png */; };
 		AD44FF9A3A634B1E8D9FAF2B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0789E40FA04788A366555D /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +45,8 @@
 /* Begin PBXFileReference section */
 		7F0789E40FA04788A366555D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F75EFB4682446C989EBD454 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A8AA1049188F31D200A7969E /* thumbs_down_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_down_icon.png; sourceTree = "<group>"; };
+		A8AA104A188F31D200A7969E /* thumbs_up_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbs_up_icon.png; sourceTree = "<group>"; };
 		A8AADA5F188C60F60040EE41 /* image-not-available.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-not-available.jpg"; sourceTree = "<group>"; };
 		A8AADA61188C811B0040EE41 /* SFMovieDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFMovieDetailCell.h; path = ../SFMovieDetailCell.h; sourceTree = "<group>"; };
 		A8AADA62188C811B0040EE41 /* SFMovieDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFMovieDetailCell.m; path = ../SFMovieDetailCell.m; sourceTree = "<group>"; };
@@ -74,8 +76,6 @@
 		A8F6B038188B2EE500B4F3E8 /* SFModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFModelTest.m; path = ../SFModelTest.m; sourceTree = "<group>"; };
 		A8F6B03A188B46A200B4F3E8 /* SFMovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFMovieDetailViewController.h; path = ../SFMovieDetailViewController.h; sourceTree = "<group>"; };
 		A8F6B03B188B46A200B4F3E8 /* SFMovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFMovieDetailViewController.m; path = ../SFMovieDetailViewController.m; sourceTree = "<group>"; };
-		A8F6B03D188B58E500B4F3E8 /* thumbs up_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbs up_icon.png"; path = "../thumbs up_icon.png"; sourceTree = "<group>"; };
-		A8F6B03E188B58E500B4F3E8 /* thumbs down_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "thumbs down_icon.png"; path = "../thumbs down_icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +138,11 @@
 		A8F6B000188A1E4000B4F3E8 /* tomatoes */ = {
 			isa = PBXGroup;
 			children = (
+				A8AA1049188F31D200A7969E /* thumbs_down_icon.png */,
+				A8AA104A188F31D200A7969E /* thumbs_up_icon.png */,
 				A8AADA61188C811B0040EE41 /* SFMovieDetailCell.h */,
 				A8AADA62188C811B0040EE41 /* SFMovieDetailCell.m */,
 				A8AADA5F188C60F60040EE41 /* image-not-available.jpg */,
-				A8F6B03D188B58E500B4F3E8 /* thumbs up_icon.png */,
-				A8F6B03E188B58E500B4F3E8 /* thumbs down_icon.png */,
 				A8F6B03A188B46A200B4F3E8 /* SFMovieDetailViewController.h */,
 				A8F6B03B188B46A200B4F3E8 /* SFMovieDetailViewController.m */,
 				A8F6B009188A1E4000B4F3E8 /* SFAppDelegate.h */,
@@ -270,11 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F6B013188A1E4000B4F3E8 /* Images.xcassets in Resources */,
+				A8AA104B188F31D200A7969E /* thumbs_down_icon.png in Resources */,
+				A8AA104C188F31D200A7969E /* thumbs_up_icon.png in Resources */,
 				A8AADA60188C60F60040EE41 /* image-not-available.jpg in Resources */,
-				A8F6B03F188B58E500B4F3E8 /* thumbs up_icon.png in Resources */,
 				A8F6B005188A1E4000B4F3E8 /* InfoPlist.strings in Resources */,
 				A8F6B00E188A1E4000B4F3E8 /* Main.storyboard in Resources */,
-				A8F6B040188B58E500B4F3E8 /* thumbs down_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

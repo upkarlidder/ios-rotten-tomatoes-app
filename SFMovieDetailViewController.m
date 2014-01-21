@@ -58,9 +58,17 @@
     cell.castsLabel.text = self.movie.casts;
     NSURL *url = [NSURL URLWithString:self.movie.largeURL];
     [cell.image setImageWithURL:url];
-    cell.criticsRatingLabel.text = [self.movie.criticRating stringValue];
-    cell.userRatingLabel.text = [self.movie.userRating stringValue];
+    cell.criticsRatingLabel.text = [NSString stringWithFormat:@"%@ %@", [self.movie.criticRating stringValue],@"critics like it"];
+    cell.userRatingLabel.text = [NSString stringWithFormat:@"%@ %@", [self.movie.userRating stringValue],@"users like it"];
+    if([self.movie.userRating integerValue] < 50)
+       [cell.userRatingImageView setImage:[UIImage imageNamed:@"thumbs_down_icon.png"]];
+    else
+        [cell.userRatingImageView setImage:[UIImage imageNamed:@"thumbs_up_icon.png"]];
     
+    if([self.movie.criticRating integerValue] < 50)
+        [cell.criticsRatingImageView setImage:[UIImage imageNamed:@"thumbs_down_icon.png"]];
+    else
+        [cell.criticsRatingImageView setImage:[UIImage imageNamed:@"thumbs_up_icon.png"]];
     
     return cell;
 }

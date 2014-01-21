@@ -35,7 +35,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAction target:self action:@selector(onDoneButton:)];
+}
 
+- (IBAction)onDoneButton:(id)sender {
+    
+    NSArray *Items   = [NSArray arrayWithObjects:
+                        self.movie.title, self.movie.synopsis, nil];
+    
+    UIActivityViewController *ActivityView =
+    [[UIActivityViewController alloc]
+     initWithActivityItems:Items applicationActivities:nil];
+    [self presentViewController:ActivityView animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning

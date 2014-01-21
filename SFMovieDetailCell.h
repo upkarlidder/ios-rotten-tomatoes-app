@@ -21,4 +21,6 @@
 @property (nonatomic, weak)IBOutlet UILabel *userRatingLabel;
 @property (nonatomic, weak)IBOutlet UILabel *criticsRatingLabel;
 
+
+
 @end

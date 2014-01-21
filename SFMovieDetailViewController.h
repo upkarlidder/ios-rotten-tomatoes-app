@@ -13,4 +13,6 @@
 
 @property (nonatomic, weak) SFMovie *movie;
 
+- (IBAction) onDoneButton:(id)sender;
+
 @end

@@ -11,6 +11,7 @@
 #import "SFMovie.h"
 #import "SFMovieDetailViewController.h"
 #import <SVProgressHUD/SVProgressHUD.h>
+#import "UIImageview+AFNetworking.h"
 
 
 @interface SFMoviesViewController ()
@@ -68,6 +69,8 @@
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:12];
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+        
+        
         NSInteger responseCode = [(NSHTTPURLResponse *)response statusCode];
         if (!connectionError && responseCode == 200){
         NSDictionary *object = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
@@ -107,9 +110,7 @@
     cell.casts.text = movie.casts;
     
     NSURL *url = [NSURL URLWithString:movie.thumbURL];
-    NSData *data = [NSData dataWithContentsOfURL:url];
-    UIImage *img = [[UIImage alloc] initWithData:data];
-    [cell.imageView setImage:img];
+    [cell.image setImageWithURL:url];
 
     return cell;
 }

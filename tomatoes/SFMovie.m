@@ -15,18 +15,25 @@
     if(self){
         self.title = dictionary[@"title"];
         self.synopsis = dictionary[@"synopsis"];
-        self.casts = [self cast:dictionary[@"abridged_cast"]];
+        self.casts = [self parseCastArray:dictionary[@"abridged_cast"]];
         self.thumbURL = [self getThumbURL:dictionary[@"posters"]];
         self.largeURL = [self getLargeURL:dictionary[@"posters"]];
+        self.userRating = [self getRating:dictionary[@"ratings"] ratingType:userRating];
+        self.criticRating = [self getRating:dictionary[@"ratings"] ratingType:criticRating];
+
     }
     return self;
 }
 
-- (NSString* )cast:(NSArray *)castArray{
+- (NSString* )parseCastArray:(NSArray *)castArray{
     NSMutableString *castString = [[NSMutableString alloc]init];
+    int count = 1;
     for(NSDictionary *dic in castArray){
         NSString *item = [dic objectForKey:@"name"];
         [castString appendString:item];
+        if(count < castArray.count)
+            [castString appendString:@", "];
+        count++;
     }
 
     return castString;
@@ -42,5 +49,32 @@
     return largeURL;
 }
 
+- (NSNumber *)getRating:(NSDictionary *)movieDic ratingType:(enum RatingsEnum) rating{
+    
+    NSNumber *result = [[NSNumber alloc]init];
+    NSNumber *ratingNum = [[NSNumber alloc]init];
+    
+    switch (rating) {
+        case userRating:
+        {
+            ratingNum = [movieDic objectForKey:@"audience_score"];
+            break;
+        }
+        case criticRating:
+        {
+            ratingNum = [movieDic objectForKey:@"critics_score"];
+            break;
+        }
+        default:
+            break;
+    }
+    
+    if(ratingNum && ratingNum > 0)
+    {
+        result = ratingNum;
+    }
+
+    return result;
+}
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A8AADA60188C60F60040EE41 /* image-not-available.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8AADA5F188C60F60040EE41 /* image-not-available.jpg */; };
+		A8AADA63188C811B0040EE41 /* SFMovieDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AADA62188C811B0040EE41 /* SFMovieDetailCell.m */; };
 		A8F6AFFB188A1E4000B4F3E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFA188A1E4000B4F3E8 /* Foundation.framework */; };
 		A8F6AFFD188A1E4000B4F3E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFC188A1E4000B4F3E8 /* CoreGraphics.framework */; };
 		A8F6AFFF188A1E4000B4F3E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F6AFFE188A1E4000B4F3E8 /* UIKit.framework */; };
@@ -45,6 +46,8 @@
 		7F0789E40FA04788A366555D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F75EFB4682446C989EBD454 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A8AADA5F188C60F60040EE41 /* image-not-available.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image-not-available.jpg"; sourceTree = "<group>"; };
+		A8AADA61188C811B0040EE41 /* SFMovieDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFMovieDetailCell.h; path = ../SFMovieDetailCell.h; sourceTree = "<group>"; };
+		A8AADA62188C811B0040EE41 /* SFMovieDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFMovieDetailCell.m; path = ../SFMovieDetailCell.m; sourceTree = "<group>"; };
 		A8F6AFF7188A1E4000B4F3E8 /* tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomatoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F6AFFA188A1E4000B4F3E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8F6AFFC188A1E4000B4F3E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,12 +138,13 @@
 		A8F6B000188A1E4000B4F3E8 /* tomatoes */ = {
 			isa = PBXGroup;
 			children = (
+				A8AADA61188C811B0040EE41 /* SFMovieDetailCell.h */,
+				A8AADA62188C811B0040EE41 /* SFMovieDetailCell.m */,
 				A8AADA5F188C60F60040EE41 /* image-not-available.jpg */,
 				A8F6B03D188B58E500B4F3E8 /* thumbs up_icon.png */,
 				A8F6B03E188B58E500B4F3E8 /* thumbs down_icon.png */,
 				A8F6B03A188B46A200B4F3E8 /* SFMovieDetailViewController.h */,
 				A8F6B03B188B46A200B4F3E8 /* SFMovieDetailViewController.m */,
-				A8F6B038188B2EE500B4F3E8 /* SFModelTest.m */,
 				A8F6B009188A1E4000B4F3E8 /* SFAppDelegate.h */,
 				A8F6B00A188A1E4000B4F3E8 /* SFAppDelegate.m */,
 				A8F6B00C188A1E4000B4F3E8 /* Main.storyboard */,
@@ -170,6 +174,7 @@
 		A8F6B01F188A1E4000B4F3E8 /* tomatoesTests */ = {
 			isa = PBXGroup;
 			children = (
+				A8F6B038188B2EE500B4F3E8 /* SFModelTest.m */,
 				A8F6B025188A1E4000B4F3E8 /* tomatoesTests.m */,
 				A8F6B020188A1E4000B4F3E8 /* Supporting Files */,
 			);
@@ -322,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F6B007188A1E4000B4F3E8 /* main.m in Sources */,
+				A8AADA63188C811B0040EE41 /* SFMovieDetailCell.m in Sources */,
 				A8F6B03C188B46A200B4F3E8 /* SFMovieDetailViewController.m in Sources */,
 				A8F6B034188A2F9100B4F3E8 /* SFMovieCell.m in Sources */,
 				A8F6B031188A204000B4F3E8 /* SFMoviesViewController.m in Sources */,

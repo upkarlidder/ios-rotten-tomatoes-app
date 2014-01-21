@@ -13,8 +13,15 @@ The RottenTomatoes app was built as part of the [Ios CodePath iOS Mobile Bootcam
 
 In addition to the main screen with the list of movies, the user is able to get details of a particular movie by tapping on the movie cell. The detail not includes actors and synopsis, but also shows box office ranking so that you don't have to waste 3 hours at the movie theatre !
 
-<img src="http://i.imgur.com/VfPvA8H.png" height="545" />
-<img src="http://i.imgur.com/sbbZ8ho.png" height="545" />
+<img src="http://i.imgur.com/pHYgl8b.png" height="545" />
+<img src="http://i.imgur.com/wTmoERZ.png" height="545" />
+
+Finally, the app lets you share the movie details with your friends via email
+
+<img src="http://i.imgur.com/IA7WwI9.png" height="545" />
+<img src="http://i.imgur.com/eNwkHUo.png" height="545" />
+
+
 
 The app checks for internet connection and gives the user a friendly message if network is not present
 <img src="http://i.imgur.com/wI1VN78.png" height="545" />

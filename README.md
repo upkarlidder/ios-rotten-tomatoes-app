@@ -52,7 +52,7 @@ The app checks for internet connection and gives the user a friendly message if 
 ## Contributing
 
 Please fork this repository and contribute back using
-[pull requests](https://github.com/8indaas/ios-temperature-converter/pulls).
+[pull requests](https://github.com/8indaas/ios-rotten-tomatoes-app/pulls).
 
 Any contributions, large or small, major features, bug fixes, additional
 language translations, unit/integration tests are welcomed and appreciated
